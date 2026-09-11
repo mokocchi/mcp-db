@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("io.modelcontextprotocol.sdk:mcp:2.0.1")
+    implementation("org.postgresql:postgresql:42.7.3")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
+    
+}
+
+/* LISTADO de librerías
+
+1) MCP estandar - el kit de desarrollo (SDK)
+io.modelcontextprotocol.sdk:mcp
+2) Conector Postgres para jdbc
+org.postgresql:postgresql
+3) Jackson para parsear fácilmente JSON
+com.fasterxml.jackson.core:jackson-databind
+
+*/

@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# Java compilation output
+bin/
+*.class
+
+# Generated archives
+*.jar
+
+# Local IDE configuration
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
